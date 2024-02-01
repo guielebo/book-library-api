@@ -24,7 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\..\BookLibrary\src\Api\Api.csproj" />
+    <ProjectReference Include="..\..\..\BookLibrary\src\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\..\BookLibrary\src\Infrastructure\Infrastructure.csproj" />   
   </ItemGroup>
 
 </Project>
